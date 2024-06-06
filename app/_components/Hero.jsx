@@ -30,7 +30,7 @@ const Hero = () => {
                 width={1000}
                 height={700}
                 alt='dashboard'
-                className='-mt-9 border-2 border-blue-500 rounded-xl'
+                className='-mt-9 border-2 border-blue-100 rounded-xl'
             />
         </section>
     )
