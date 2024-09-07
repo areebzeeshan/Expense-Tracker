@@ -32,7 +32,7 @@ const ExpenseListtable = ({ expensesList, refreshData }) => {
                     <h2>{expense.name}</h2>
                     <h2>{expense.amount}</h2>
                     <h2>{expense.createdAt}</h2>
-                    <h2>
+                    <h2 className="text-center">
                         <Trash
                             className='text-red-500 cursor-pointer'
                             onClick={() => deleteExpense(expense)}
